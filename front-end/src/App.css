@@ -1,0 +1,24 @@
+.App {
+    display: flex;
+    justify-content: space-between;
+}
+
+.App .menu {
+    width: 30%;
+}
+
+.App .react-pdf__Document {
+    width: 50%;
+}
+
+.App .menu .buttons {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    padding: 20px 0;
+    cursor: pointer;
+}
